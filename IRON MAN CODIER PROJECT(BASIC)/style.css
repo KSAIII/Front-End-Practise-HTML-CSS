@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+header ul a{
+    text-decoration: none;
+    color:yellow;
+    cursor:pointer;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    background-color:brown;
+}
+.logo a{
+    color:yellow;
+    cursor:pointer;
+    font-size: 25px;
+}
+li a:hover{
+    transition: all 0.3s ease 0s;;
+    color:black;
+}
+li a{
+    display: inline-block;
+    padding:5px 20px;
+}
+.main-image{
+    width:100%;
+    object-fit: cover;
+}
+.quote{
+    color:white;
+    font-size: 1vw;
+    position: absolute;
+    bottom:75%;
+    left:5%;
+    text-align: center;
+}
+.content h1{
+    margin-top:4%;
+    text-align: center;
+}
+.content-image{
+    width: 200%;
+    max-width: 750px;
+    height: 500px;
+    object-fit: cover;
+    padding: 0px 15px 0px 0px;
+    margin-bottom: 10px;
+    margin-left:27%;
+    margin-top:3%;
+}
+.profile{
+    text-align: center;
+}
+.paragraph p {
+    display: inline;
+    font-size: 20px;
+    text-align: justify;
+}
+.end-of-the-page h1{
+    text-align: center;
+    margin-top:7px;
+    margin-bottom:11px;
+}
+.end-of-the-page img{
+    margin-left:32%;
+}
+.end-of-the-page p{
+text-align: center;
+text-align: justify;
+margin-left:32%;
+font-size:25px;
+}
+footer{
+    background-color:black;
+    color:white;
+    text-align: center;
+    margin-top:6px;
+    margin-left:31%;
+    margin-right:31%;
+    align-items: center;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+footer a:hover{
+    transition: all 0.3s ease 0s;
+    color: grey;
+}
+.end-of-the-page a:hover{
+    color:grey;
+    transition: all 0.3s ease 0s;
+    text-decoration:none;
+}
