@@ -1,0 +1,27 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin:0px;
+    border:0px;
+    text-indent:50px;
+}
+h1{
+    text-align:center;
+    font-family:'Roboto Condenced',Sans-serif;
+}
+.image img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+.front-end-development ul{
+    font-family:'Roboto condenced',sans-serif;
+}
+.end-of-the-page img{
+    width:50%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+.end-of-the-page button:hover{
+    color:grey;
+}
